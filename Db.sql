@@ -3,6 +3,7 @@ drop table if exists notifications CASCADE;
 drop table if exists order_detail CASCADE;
 drop table if exists orders CASCADE;
 drop table if exists carts CASCADE;
+drop table if exists tokens CASCADE;
 drop table if exists users CASCADE;
 drop table if exists roles CASCADE;
 drop table if exists galeries CASCADE;
