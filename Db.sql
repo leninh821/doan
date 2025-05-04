@@ -1,9 +1,23 @@
+drop table if exists feedbacks CASCADE;
+drop table if exists notifications CASCADE;
+drop table if exists order_detail CASCADE;
+drop table if exists orders CASCADE;
+drop table if exists carts CASCADE;
+drop table if exists users CASCADE;
+drop table if exists roles CASCADE;
+drop table if exists galeries CASCADE;
+drop table if exists image_product CASCADE;
+drop table if exists products CASCADE;
+drop table if exists coupons CASCADE;
+drop table if exists categories CASCADE;
 
 create table roles(
 	id varchar(50) primary key,
 	role_name varchar(20)
 );
 
+insert into roles(id,role_name) 
+values('ADMIN','Admin'),('USER','User');
 
 create table users(
 	id uuid primary key,
@@ -22,6 +36,9 @@ create table users(
   	updated_at timestamp,
   	updated_by varchar(100)
 );
+
+insert into users(id, user_name, password, image, full_name, phone_number, email, date_of_birth, address, roles, deleted, created_at, created_by, updated_at, updated_by)
+values('7a7d6b6f-6e5e-4f6e-6b6f-6e5e4f6e6b6f','admin','$2a$10$scgDu9hjfhBkAbUhb5Mi.uc5Z0Ki1UY6/663KX5jy9rcgFu5mY01e','https://cdn-icons-png.flaticon.com/512/149/149071.png','Admin','0123456789','admin@gmail.com','2000-01-01','Admin',ARRAY['ADMIN'], false, now(), 'System', now(), 'System');
 
 create table categories(
 	id uuid primary key,
