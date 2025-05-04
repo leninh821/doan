@@ -18,12 +18,10 @@
             </div>
             <div class="footer-about">
                 <p>
-                    TMart là một trang web mua sắm trực tuyến chuyên cung cấp các sản phẩm công nghệ hàng đầu, mang đến
-                    cho
-                    khách hàng trải nghiệm mua sắm thuận tiện và đa dạng. Với danh mục sản phẩm đa dạng từ điện thoại di
-                    động, máy tính xách tay, đồ điện tử gia dụng đến phụ kiện công nghệ, TMart cam kết mang đến cho
-                    người
-                    tiêu dùng những sản phẩm chất lượng với giá cả hợp lý.
+                    ZenTech - nơi chuyên cung cấp các sản phẩm điện tử chất lượng cao như điện thoại, laptop, thiết bị
+                    âm thanh, phụ kiện công nghệ và nhiều mặt hàng điện tử tiêu dùng khác. Với cam kết chính hãng, giá
+                    cả cạnh tranh và dịch vụ khách hàng tận tâm, ZenTech luôn nỗ lực mang đến trải nghiệm mua sắm tiện
+                    lợi, nhanh chóng và đáng tin cậy cho mọi khách hàng.
                 </p>
             </div>
 
