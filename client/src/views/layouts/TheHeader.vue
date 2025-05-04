@@ -1,7 +1,7 @@
 <template>
     <header id="header">
         <div class="logo">
-            <router-link :to="{ name: 'HomePage' }"><span>T</span>Mart</router-link>
+            <router-link :to="{ name: 'HomePage' }">ZenTech</router-link>
         </div>
         <div class="search-box">
             <div class="search-box-item">
@@ -181,13 +181,13 @@ export default {
 }
 
 #header .logo {
-    width: 10%;
+    width: 12%;
 }
 
 #header .logo>a,
 #header .logo>a>span {
     font-family: cursive;
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: var(--color-primary);
     cursor: pointer;
     text-decoration: none;
@@ -200,7 +200,7 @@ export default {
 
 #header .search-box {
     display: flex;
-    width: 62%;
+    width: 60%;
     justify-content: center;
     align-items: center;
 }

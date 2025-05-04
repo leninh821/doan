@@ -17,8 +17,7 @@ const handleLogout = () => {
             <div class="sidebar-content">
                 <div class="logo">
                     <router-link :to="{ name: 'HomePage' }">
-                        <span class="t">T</span>
-                        <span class="mart">Mart</span>
+                        <span class="logo-item">ZenTech</span>
                     </router-link>
                 </div>
                 <ul>
@@ -110,7 +109,7 @@ const handleLogout = () => {
     font-size: 2rem;
 }
 
-.admin-page .sidebar .logo>a>.mart {
+.admin-page .sidebar .logo>a>.logo-item {
     color: var(--color-white);
     font-size: 2rem;
     font-style: italic;

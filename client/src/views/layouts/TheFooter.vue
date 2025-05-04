@@ -11,29 +11,31 @@
                     098765432
                     <i class="fa-solid fa-phone"></i>
                 </a>
-                <a href="mailto:supporttmart@email.com">
-                    supporttmart@email.com
+                <a href="mailto:support@email.com">
+                    support@email.com
                     <i class="fa-solid fa-envelope"></i>
                 </a>
             </div>
             <div class="footer-about">
                 <p>
-                    TMart là một trang web mua sắm trực tuyến chuyên cung cấp các sản phẩm công nghệ hàng đầu, mang đến cho
+                    TMart là một trang web mua sắm trực tuyến chuyên cung cấp các sản phẩm công nghệ hàng đầu, mang đến
+                    cho
                     khách hàng trải nghiệm mua sắm thuận tiện và đa dạng. Với danh mục sản phẩm đa dạng từ điện thoại di
-                    động, máy tính xách tay, đồ điện tử gia dụng đến phụ kiện công nghệ, TMart cam kết mang đến cho người
+                    động, máy tính xách tay, đồ điện tử gia dụng đến phụ kiện công nghệ, TMart cam kết mang đến cho
+                    người
                     tiêu dùng những sản phẩm chất lượng với giá cả hợp lý.
                 </p>
             </div>
 
         </div>
         <div class="footer-center">
-            <a target="_blank" href="https://www.facebook.com/hue.bich.3760"><i class="fa-brands fa-facebook"></i></a>
-            <a target="_blank" href="https://github.com/Huevt/DATN_Hue"><i class="fa-brands fa-github"></i></a>
-            <a target="_blank" class="insta" href="https://www.instagram.com/huy.dang_1304"><i
+            <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" class="insta" href="https://www.instagram.com/"><i
                     class="fa-brands fa-instagram"></i></a>
         </div>
         <div class="copyright">
-            <p>&copy; 2024 - Bản quyền thuộc về TMart</p>
+            <p>&copy; 2025 - Bản quyền thuộc về ZenTech</p>
         </div>
     </footer>
 </template>

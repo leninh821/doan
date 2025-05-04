@@ -41,7 +41,7 @@ const onSubmit = async () => {
                             <div class="col-12">
                                 <div class="text-center mb-5">
                                     <router-link :to="{ name: 'HomePage' }">
-                                        <img :src="require('@/assets/imgs/TMart-logo.png')" alt="Logo" width="150">
+                                        <img :src="require('@/assets/imgs/logo.png')" alt="Logo" width="150">
                                     </router-link>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ const onSubmit = async () => {
                                 </div>
                                 <div class="col-12">
                                     <div class="d-grid">
-                                        <button class="btn btn-primary btn-lg" type="submit">Đăng
+                                        <button class="btn btn-submit btn-lg" type="submit">Đăng
                                             nhập</button>
                                     </div>
                                 </div>
@@ -113,5 +113,10 @@ const onSubmit = async () => {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn-submit {
+    background-color: var(--color-primary);
+    color: var(--color-white);
 }
 </style>
